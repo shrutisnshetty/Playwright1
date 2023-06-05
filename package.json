@@ -1,0 +1,20 @@
+{
+  "name": "playwright1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "logintc":"npx playwright test LoginPractice_LoginScenarios.spec.js project=chromium",
+    "radiobtntc":"npx playwright test dropdownsRadiobtns.spec.js project=chromium",
+    "melogin":"npx playwright test MELoginPage.spec.js project=chromium",
+    "child":"npx playwright test HandleChildWindows.spec.ts project=chromium"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3"
+  }
+}
